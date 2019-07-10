@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Mew-vU-xZZ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WentaoXu_Lab3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="T2g-bb-nMO">
+                                <rect key="frame" x="-2" y="575" width="378" height="48"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6fE-kY-ReS">
+                                        <rect key="frame" x="0.0" y="0.0" width="48" height="48"/>
+                                        <color key="backgroundColor" red="1" green="0.069412172879999998" blue="0.1052681556" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Red">
+                                            <color key="titleColor" red="1" green="0.069412172879999998" blue="0.1052681556" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="23"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="colorRed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6HT-b2-jfH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oep-sA-iI8">
+                                        <rect key="frame" x="55" y="0.0" width="48" height="48"/>
+                                        <color key="backgroundColor" red="1" green="0.97982390507931305" blue="0.14703881971178823" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="yellow">
+                                            <color key="titleColor" red="1" green="0.97982390509999995" blue="0.14703881969999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="23"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="colorYellow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eF8-pI-xbG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebd-Qm-iL8">
+                                        <rect key="frame" x="110" y="0.0" width="48" height="48"/>
+                                        <color key="backgroundColor" red="0.40941164815794218" green="1" blue="0.2491289288347891" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="green">
+                                            <color key="titleColor" red="0.40941164819999998" green="1" blue="0.24912892880000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="23"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="colorGreen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tky-AE-Byz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iGX-p0-usD">
+                                        <rect key="frame" x="165" y="0.0" width="48" height="48"/>
+                                        <color key="backgroundColor" red="0.29141053828286956" green="0.51081986885074049" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="blue">
+                                            <color key="titleColor" red="0.29141053830000002" green="0.51081986889999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="23"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="colorBlue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jZA-Vu-ICA"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p9t-Nf-6Di">
+                                        <rect key="frame" x="220" y="0.0" width="48" height="48"/>
+                                        <color key="backgroundColor" red="0.64982833682972974" green="0.27181482961025083" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="purple">
+                                            <color key="titleColor" red="0.64982833679999996" green="0.27181482959999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="23"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="colorPurple:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oIG-U5-aob"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w0W-L0-lPX">
+                                        <rect key="frame" x="275" y="0.0" width="48" height="48"/>
+                                        <color key="backgroundColor" red="1" green="0.66538829099999997" blue="0.1292485243" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="orange">
+                                            <color key="titleColor" red="1" green="0.66538829099999997" blue="0.1292485243" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="23"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="colorOrange:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nXo-iW-Qn3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iGO-Te-K98">
+                                        <rect key="frame" x="330" y="0.0" width="48" height="48"/>
+                                        <color key="backgroundColor" red="1" green="0.99134372041855556" blue="0.98187099585293802" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="erase"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="23"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="colorWhite:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oLy-Zl-YaQ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="IHI-9V-WQ6"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="T2g-bb-nMO" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="3MP-Ln-D1u"/>
+                            <constraint firstItem="T2g-bb-nMO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DNC-cj-woX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="7Ky-gO-vXC">
+                        <nil key="title"/>
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="OAa-Bb-Wu7">
+                            <slider key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" id="b0h-7y-buK">
+                                <rect key="frame" x="16" y="5" width="83" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </slider>
+                            <connections>
+                                <action selector="WidthSlider:" destination="BYZ-38-t0r" id="0P2-GD-cpm"/>
+                            </connections>
+                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem title="Custom Color" id="vS8-7t-Cnl">
+                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Gk2-BW-beJ">
+                                    <rect key="frame" x="305" y="7" width="54" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" title="Custom"/>
+                                    <connections>
+                                        <segue destination="Lc5-gV-P7l" kind="show" id="qfv-tA-bsd"/>
+                                    </connections>
+                                </button>
+                                <connections>
+                                    <action selector="customcolor:" destination="BYZ-38-t0r" id="Dwz-E6-GM9"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Clear" id="DDA-nD-bwa">
+                                <connections>
+                                    <action selector="clear:" destination="BYZ-38-t0r" id="DEb-XB-BTk"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Undo" id="NeV-hx-mKP">
+                                <connections>
+                                    <action selector="undoButton:" destination="BYZ-38-t0r" id="4Jc-5T-Iio"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="slider" destination="b0h-7y-buK" id="Xsu-Vx-BOH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1101.5999999999999" y="-580.65967016491754"/>
+        </scene>
+        <!--Color View Controller-->
+        <scene sceneID="cRI-Eh-f2c">
+            <objects>
+                <viewController id="Lc5-gV-P7l" customClass="ColorViewController" customModule="WentaoXu_Lab3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1A0-8C-6fC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Dcw-Ye-9sh">
+                                <rect key="frame" x="83" y="438" width="208" height="31"/>
+                                <connections>
+                                    <action selector="GreenSlider:" destination="Lc5-gV-P7l" eventType="valueChanged" id="TGV-t6-RGv"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="MJC-F5-oea">
+                                <rect key="frame" x="83" y="532" width="208" height="31"/>
+                                <connections>
+                                    <action selector="BlueSlider:" destination="Lc5-gV-P7l" eventType="valueChanged" id="saK-qn-o4m"/>
+                                    <action selector="GreenSlider:" destination="Lc5-gV-P7l" eventType="valueChanged" id="ogg-Av-Xai"/>
+                                </connections>
+                            </slider>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bH9-FD-e9d">
+                                <rect key="frame" x="116" y="115" width="143" height="143"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="72"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Green" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mhe-iH-BAI">
+                                <rect key="frame" x="166" y="409" width="47" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3qF-rs-NVz">
+                                <rect key="frame" x="166" y="503" width="34" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Q7Y-eD-73F">
+                                <rect key="frame" x="83" y="338" width="208" height="31"/>
+                                <connections>
+                                    <action selector="RedSlider:" destination="Lc5-gV-P7l" eventType="valueChanged" id="pFx-Ir-NwV"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ye-Nm-GIk">
+                                <rect key="frame" x="172" y="303" width="30" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bH9-FD-e9d" firstAttribute="centerX" secondItem="4Ye-Nm-GIk" secondAttribute="centerX" id="0g2-gv-FvK"/>
+                            <constraint firstItem="mhe-iH-BAI" firstAttribute="leading" secondItem="4R3-6o-hky" secondAttribute="leading" constant="166" id="2TF-Ng-1O1"/>
+                            <constraint firstItem="4Ye-Nm-GIk" firstAttribute="top" secondItem="bH9-FD-e9d" secondAttribute="bottom" constant="45" id="7hO-6f-4rs"/>
+                            <constraint firstItem="Q7Y-eD-73F" firstAttribute="leading" secondItem="4R3-6o-hky" secondAttribute="leading" constant="85" id="9py-kC-EXb"/>
+                            <constraint firstItem="bH9-FD-e9d" firstAttribute="top" secondItem="4R3-6o-hky" secondAttribute="top" constant="51" id="9qJ-No-07T"/>
+                            <constraint firstItem="Dcw-Ye-9sh" firstAttribute="leading" secondItem="MJC-F5-oea" secondAttribute="leading" id="AjC-4c-WYD"/>
+                            <constraint firstItem="mhe-iH-BAI" firstAttribute="top" secondItem="Q7Y-eD-73F" secondAttribute="bottom" constant="41" id="C2V-bd-Cgx"/>
+                            <constraint firstItem="3qF-rs-NVz" firstAttribute="top" secondItem="Dcw-Ye-9sh" secondAttribute="bottom" constant="35" id="Cbj-fV-5TT"/>
+                            <constraint firstItem="4R3-6o-hky" firstAttribute="bottom" secondItem="MJC-F5-oea" secondAttribute="bottom" constant="61" id="IhC-XY-sx7"/>
+                            <constraint firstItem="4Ye-Nm-GIk" firstAttribute="centerX" secondItem="1A0-8C-6fC" secondAttribute="centerX" id="Lnk-jb-1do"/>
+                            <constraint firstItem="MJC-F5-oea" firstAttribute="top" secondItem="3qF-rs-NVz" secondAttribute="bottom" constant="8" symbolic="YES" id="Pky-Pv-Gpo"/>
+                            <constraint firstItem="Q7Y-eD-73F" firstAttribute="leading" secondItem="Dcw-Ye-9sh" secondAttribute="leading" id="W4t-eA-cbP"/>
+                            <constraint firstItem="4Ye-Nm-GIk" firstAttribute="centerX" secondItem="Q7Y-eD-73F" secondAttribute="centerX" id="X4c-xo-Hzo"/>
+                            <constraint firstItem="bH9-FD-e9d" firstAttribute="leading" secondItem="4R3-6o-hky" secondAttribute="leading" constant="116" id="cqH-J3-WH6"/>
+                            <constraint firstItem="Dcw-Ye-9sh" firstAttribute="trailing" secondItem="MJC-F5-oea" secondAttribute="trailing" id="fd5-ss-vIn"/>
+                            <constraint firstItem="Q7Y-eD-73F" firstAttribute="trailing" secondItem="Dcw-Ye-9sh" secondAttribute="trailing" id="h60-4v-01T"/>
+                            <constraint firstItem="mhe-iH-BAI" firstAttribute="leading" secondItem="3qF-rs-NVz" secondAttribute="leading" id="iFY-dc-pT5"/>
+                            <constraint firstItem="Dcw-Ye-9sh" firstAttribute="top" secondItem="mhe-iH-BAI" secondAttribute="bottom" constant="8" symbolic="YES" id="vFw-Lc-ozc"/>
+                            <constraint firstItem="Q7Y-eD-73F" firstAttribute="top" secondItem="4Ye-Nm-GIk" secondAttribute="bottom" constant="14" id="yLq-Dc-hWt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4R3-6o-hky"/>
+                    </view>
+                    <connections>
+                        <outlet property="BSlider" destination="MJC-F5-oea" id="eUM-KP-jtd"/>
+                        <outlet property="ColorView" destination="bH9-FD-e9d" id="yek-NG-wub"/>
+                        <outlet property="GSlider" destination="Dcw-Ye-9sh" id="blW-th-vuw"/>
+                        <outlet property="Rslider" destination="Q7Y-eD-73F" id="R7y-ou-rJ3"/>
+                        <outlet property="blabel" destination="3qF-rs-NVz" id="UfJ-TI-Qus"/>
+                        <outlet property="glabel" destination="mhe-iH-BAI" id="JC3-uz-qli"/>
+                        <outlet property="rlabel" destination="4Ye-Nm-GIk" id="JvQ-DE-59P"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mau-jB-XN6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1880.8" y="-580.65967016491754"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="eVT-aL-DcI">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Mew-vU-xZZ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="w9A-qs-hkh">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="TPZ-38-j62"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fur-El-gPr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="-579.76011994002999"/>
+        </scene>
+    </scenes>
+</document>
